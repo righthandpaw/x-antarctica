@@ -1,0 +1,37 @@
+#BACKGROUND terrain_Water
+SHAPEFILE_TERRAIN terrain_Water ./mesh/x-antarctica/water_polygons/water_polygons.shp
+
+#Contours file force terrain creation
+SHAPEFILE_CONTOUR ./mesh/x-antarctica/contours/grid.shp
+
+#BASE
+SHAPEFILE_TERRAIN terrain_Natural ./mesh/x-antarctica/coast_line_polygon/coast_line_poly.shp
+
+#ICE_SHELF
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_flat ./mesh/x-antarctica/ice_shelf_polys/ice_shelf_ploys.shp
+
+#BARE_ROCK
+SHAPEFILE_TERRAIN terrain10/bare_scree_pol_sdry ./mesh/x-antarctica/bare_rock_poly/bare_rock_poly.shp
+
+#ICY_ROCK
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_0/icy_rock_part_0.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_1/icy_rock_part_1.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_2/icy_rock_part_2.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_3/icy_rock_part_3.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_4/icy_rock_part_4.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_5/icy_rock_part_5.shp 
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_6/icy_rock_part_6.shp
+
+#ICE_WATER
+SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_flat ./mesh/x-antarctica/ice_water_polys/ice_water.shp  
+
+
+#SHAPEFILE_MASK  ./mesh/antarctica_coastline/masks/masks.shp
+#CLEAR_MASK
+#SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_flat ./mesh/antarctica_coastline/antarctica.shp
+#SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_flat ./mesh/antarctica_coastline/simplified/simplified_v1.shp
+#SHAPEFILE_TERRAIN terrain10/bare_scree_pol_sdry ./mesh/antarctica_coastline/simplified/simplified_v1.shp
+#SHAPEFILE_CONTOUR ./mesh/antarctica_coastline/contours/contours.shp
+#SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/antarctica_coastline/vincent-masiff/vincentmasiff.shp
+#SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/antarctica_coastline/thiel/theil.shp
+
