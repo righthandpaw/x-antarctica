@@ -23,7 +23,7 @@ SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_par
 SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_steep ./mesh/x-antarctica/icy_rock_part_6/icy_rock_part_6.shp
 
 #ICE_WATER
-SHAPEFILE_TERRAIN terrain10/ice_vpol_sdry_flat ./mesh/x-antarctica/ice_water_polys/ice_water.shp  
+SHAPEFILE_TERRAIN terrain10/broad_cld_rain_sflat_sp ./mesh/x-antarctica/ice_water_polys/ice_water.shp  
 
 
 #SHAPEFILE_MASK  ./mesh/antarctica_coastline/masks/masks.shp
