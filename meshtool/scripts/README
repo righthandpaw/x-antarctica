@@ -1,0 +1,4 @@
+builddir.sh - builds the "Earth nav data" folder based on the folders present in the "Dumps" folder
+buildmesh.php - builds the mesh 
+sort_me.php - sorts built mesh into Earth nav data folder
+whatisdone.php - moves completed .hgt files from the /dem folder to /done (this is usefull for long builds to pick-up where you left off)
